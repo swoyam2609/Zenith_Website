@@ -217,6 +217,12 @@ span {
     transition: all ease-in-out 1s;
 }
 
+.team .team_member:hover img{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    transition: all ease-in-out 1s;
+}
+
 @media (max-width:1000px) {
     .team .team_member {
         width: 50%;
@@ -237,23 +243,19 @@ span {
     clip-path: circle();
 }
 
-.team_member img:hover {
-    filter: grayscale(0%);
-    transition: 0.3s;
-}
-
 .team .team_member h3 {
     color: #444;
 }
 
 .team .team_member span {
     font-size: 12px;
-    color: #999;
+    color: #5c5c5c;
 }
 
 .team .team_member p {
     margin: 15px 0;
-    color: #999;
+    color: #3a3a3a;
+    font-weight: 500;
 
 }
 

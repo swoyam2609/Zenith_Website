@@ -193,6 +193,15 @@ a:link {
     flex-wrap: wrap;
 }
 
+a {
+    font-size: 20px;
+}
+
+span {
+    font-size: 15px;
+    font-weight: 600;
+}
+
 .team .team_member {
     width: 18%;
     margin: 10px;
